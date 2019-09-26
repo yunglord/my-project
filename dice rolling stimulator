@@ -1,0 +1,12 @@
+import random
+import math
+
+n = random.randint(1,6)
+num = 6
+while True :
+  n = random.randint(1,6)
+  if n == num :
+    print ("you just rolled a six")
+    break
+  else:
+    print ("you rolled {0}. would you like to roll again.".format(n))
